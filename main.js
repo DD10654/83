@@ -74,7 +74,7 @@ function my_mousemove(e) {
         ctx.beginPath();
         ctx.strokeStyle = colour;
         ctx.lineWidth = width;
-        ctx.arc(mouse_x, mouse_y, radius , 0 , 2*Math.PI);
+        ctx.arc(phone_x, phone_y, radius , 0 , 2*Math.PI);
         ctx.stroke();
     }
 
